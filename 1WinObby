@@ -1,0 +1,5 @@
+local args = {
+    [1] = 22000000000000000000
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Honeypot"):WaitForChild("Internal"):WaitForChild("RemoteStorage"):WaitForChild("AwardCash - RemoteEvent"):FireServer(unpack(args))
